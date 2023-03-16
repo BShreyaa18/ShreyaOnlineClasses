@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+       ul
+           div#logo
+                img(src="/static/logo.png")
+                |SDA
+           li  #[a(href="/") Home] 
+           li  #[a(href="/") About Us] 
+           li  #[a(href="/") Contact Us] 
+           li  #[a(href="/") Services ]
+           li  #[a(href="/") Class Info] 
+    section#intro 
+        div Welcome to Shreya's Dance Academy 
+        div.small Live To Dance
+    section#mission
+        h2 Our mission 
+        div.card 
+            h3 Dance is the hidden language of soul
+            div.card-box 
+                div.card-img
+                   img(src="/static/img1.png")
+                div.card-content 
+                   p Live to Dance   
+        div.card 
+            h3 Why walk when you can dance
+            div.card-box 
+                div.card-img
+                   img(src="/static/img2.png")
+                div.card-content 
+                   p Live to Dance 
+        div.card 
+            h3 Dance to express not to impress 
+            div.card-box 
+                div.card-img
+                   img(src="/static/img3.png")
+                div.card-content 
+                   p Live to Dance            
+    section#sponsers 
+        h2 Our sponsers
+        div#sps  
+            img(src="/static/logo1.png" class="Simg")
+            img(src="/static/logo2.png" class="Simg")
+            img(src="/static/logo3.png" class="Simg")
+            img(src="/static/logo4.png" class="Simg")
+            img(src="/static/logo5.png" class="Simg")
+    footer#footer 
+        h3 Copyright© 2018 ShreyaDanceAcademy.com | All rights reserved.                
+    script
+      include ../static/index.js

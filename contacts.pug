@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/app.js')
+block style
+  style 
+     include ../static/style.css
+     include ../static/stylecontact.css
+block content
+  div.container
+     h1 Login 
+     form(action="/contacts" method="post" class="myform")
+      input(type="text" class="MyInput" name="name" placeholder="Enter your name ")
+      input(type="phone" class="MyInput" name="phone" placeholder="Enter your phone number ")
+      input(type="text" class="MyInput" name="email" placeholder="Enter your email -id ")
+      input(type="text" class="MyInput" name="address" placeholder="Enter your address ")
+      input(type="text" class="MyInput" name="desc" placeholder="Enter your concern ")
+      button(class="btn")
+       Submit Submit

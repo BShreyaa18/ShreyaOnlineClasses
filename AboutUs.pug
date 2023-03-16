@@ -1,0 +1,47 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/app.js')
+block style
+    style 
+     include ../static/style.css
+     include ../static/styleabout.css
+block content
+   section#containerr 
+     h1 About Us 
+     p Learning is ❤️. Class 11th, 12th, JEE, NEET preparation.
+     p We aim at providing quality content to every child for free. Live classes, video lectures, test series, lecturewise notes, topicwise assignment with best questions, dynamic exercise and much more. Almost 90% content will be provided for free.
+   section#image 
+    img(src="/static/bimgg.png")
+   section#contain
+    div.testseries 
+        div.row 
+          img(src="/static/logo.png")
+          div.col
+            h3 Test Series 
+            p We provide you the best test series for Class XI, XII, JEE, NEET chapterwise which will be scheduled for whole year. 
+            p This test series follows very logical sequence of Basic → Advance questions. 
+   section#contain
+    div.DPP
+        div.row 
+          img(src="/static/loggo1.png")
+          div.col
+            h3 DPP 
+            p  Daily Practice is the key to success. 
+            p  Hence we are now providing lecturewise DPP sheets for Class XI Alpha Physics. The best questions of this sheet would be also discussed in the later video lecture.
+   section#contain
+    div.HandwrittenNotes  
+        div.row 
+          img(src="/static/loggo2.png")
+          div.col
+            h3 Handwritten Notes 
+            p  Though the best notes are those which are written by yourself, yet at the time due to unavoidable circumstances we urgently need notes which are best in content as well as quality.
+            p  For this we have included PDF notes of each chapter. These notes are aligned under Concepts Notes. At times, you may find some difference between video lecture and PDF Handwritten Notes. 
+   section#contain
+    div.Assignment 
+        div.row 
+          img(src="/static/loggo3.png")
+          div.col
+            h3 Assignment 
+            p  Now, this is something you won't get for free so easily. 
+            p  These Assignment are best in industry and follow a very logical sequence of Basic→Advance questions.The cherry on top is that at the end of Assignment you get solution too detailed.    

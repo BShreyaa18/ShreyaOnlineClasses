@@ -1,0 +1,20 @@
+
+.row{
+    margin:20px;
+    display: flex;
+    flex-direction: row;
+    padding :20px;
+}
+.col{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+}
+#image img{
+    background-size: cover;
+    
+    width:100%
+}
+p{
+    font-size: larger;
+}

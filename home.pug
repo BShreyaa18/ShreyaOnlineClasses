@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/app.js')
+block style
+  style 
+     include ../static/style.css
+block content
+    section#intro 
+        div Welcome to Shreya's Online Classes 
+        div.small Learning never exhausts the mind 
+    section#mission
+        h2 Our mission 
+        div.card 
+            h3 Live as if you were to die tomorrow. Learn as if you were to live forever.
+            div.card-box 
+                div.card-img
+                   img(src="/static/imgg1.png")
+                div.card-content 
+                   p Never Stop Learning    
+        div.card 
+            h3 Education is the kindling of a flame, not the filling of a vessel.
+            div.card-box 
+                div.card-img
+                   img(src="/static/imgg2.png")
+                div.card-content 
+                   p Never Stop Learning  
+        div.card 
+            h3 For the things we have to learn before we can do them, we learn by doing them. 
+            div.card-box 
+                div.card-img
+                   img(src="/static/imgg3.png")
+                div.card-content 
+                   p Never Stop Learning            
+    section#sponsers 
+        h2 Our sponsers
+        div#sps  
+            img(src="/static/logo2.png" class="Simg")
+            img(src="/static/logo4.png" class="Simg")
+            img(src="/static/logo5.png" class="Simg")

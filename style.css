@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#navbar{
+    background-color:rgb(201, 189, 189);
+    padding : 10px 20px;
+    
+}
+#navbar li a:hover{
+    color: azure;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 30px;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+#logo{
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    color: black;
+    padding-left: 0px;
+    margin-left: 0px;
+    padding-right: 440px;
+    align-items: center;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+}
+.card-img img{
+    height:135px;
+}
+.card-content{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+#logo img{
+    width:40px;
+}
+h2{
+    text-align: center;
+    padding-top: 30px;
+    
+}
+#mission{
+    height:300px;
+}
+.card{
+    border:2px solid black;
+    border-radius: 5px;
+    width: 25%;
+    height :67%;
+    margin:20px 60px;
+    display:inline-block;
+}
+.card h3{
+    text-align: center;
+    padding:10px;
+}
+#intro{
+    height: 500px;
+    display: flex;
+    padding-top: 200px;
+    font-size: 2rem;
+    flex-direction: column;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bimg.jpg");
+    color: black;
+    text-align: center;
+    font-weight: bolder; 
+    opacity: 0.7; 
+}
+#intro div{
+    padding-bottom: 5px;
+}
+#sponsers{
+    height:300px;
+    background-color: rgb(201, 189, 189);
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.Simg{
+    height:140px;
+    margin:20px;
+    padding: 10px;
+}
+#sps{
+    margin:10px;
+}
+#footer{
+    height:100 px;
+    background-color: rgb(201, 189, 189);
+}
+h3{
+    text-align: center;
+}
